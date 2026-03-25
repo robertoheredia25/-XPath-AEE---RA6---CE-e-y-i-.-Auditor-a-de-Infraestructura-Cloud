@@ -7,7 +7,7 @@ Gracias a esta creacios de grupos y atributos hemos ahorrado unas 30 lineas ya q
 
 ## ¿Qué error os da VS Code si intentáis poner dos servidores con el mismo ID?
 
-Al intentar duplicar un atributo `@id` (por ejemplo, poniendo `id="srv-web-01"` en dos servidores distintos ejemplo puesto en clase) la validación XML en VS Code lanza un error de restricción de identidad (Identity Constraint) disparado por la regla `<xs:unique name="UnicoID">`. 
+Al intentar duplicar un atributo `@id` (por ejemplo, poniendo `id="srv-web-01"` en dos servidores distintos ejemplo puesto en clase) la validación XML en VS Code lanza un error de restricción de identidad disparado por la regla `<xs:unique name="UnicoID">`. 
 
 El error que nos da es:
 `cvc-identity-constraint.4.1: Duplicate unique value [srv-web-01] declared for identity constraint "UnicoID" of element "catalogo_cloud".`
